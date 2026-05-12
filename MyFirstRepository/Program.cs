@@ -319,7 +319,10 @@ class MainForm : Form
             await Task.Delay(7 + Math.Min(step, 15) * 2);
         }
 
-        return selectedCase.Open(random, currentTargetRarity);
+        currentTargetRarity = wheelSegments[wheelPosition];
+        var skin = selectedCase.Open(random, currentTargetRarity);
+        currentSkin = skin;
+        return skin;
     }
 
     private void AddSkinToInventory(Skin skin)
@@ -545,6 +548,31 @@ class MainForm : Form
                 new Skin("AK-47 | Fuel Injector", Rarity.Covert, 160.00m),
                 new Skin("AWP | Dragon Lore", Rarity.Covert, 1800.00m),
                 new Skin("★ Karambit | Doppler", Rarity.RareSpecialItem, 220.00m),
+            }),
+            new Case("Prisma Case", new Dictionary<Rarity, double>
+            {
+                [Rarity.Consumer] = 60.00,
+                [Rarity.Industrial] = 20.00,
+                [Rarity.MilSpec] = 10.00,
+                [Rarity.Restricted] = 5.50,
+                [Rarity.Classified] = 3.00,
+                [Rarity.Covert] = 1.20,
+                [Rarity.RareSpecialItem] = 0.30,
+            }, new List<Skin>
+            {
+                new Skin("P250 | Emerald", Rarity.Consumer, 0.15m),
+                new Skin("Five-SeveN | Urban Hazard", Rarity.Consumer, 0.18m),
+                new Skin("AUG | Wings", Rarity.Industrial, 0.35m),
+                new Skin("UMP-45 | Primal Saber", Rarity.Industrial, 0.45m),
+                new Skin("Galil AR | Chatterbox", Rarity.MilSpec, 1.50m),
+                new Skin("FAMAS | Mecha Industries", Rarity.MilSpec, 1.75m),
+                new Skin("Glock-18 | Royal Legion", Rarity.Restricted, 7.80m),
+                new Skin("Desert Eagle | Code Red", Rarity.Restricted, 10.50m),
+                new Skin("AK-47 | Orbit MK01", Rarity.Classified, 25.00m),
+                new Skin("M4A4 | Evil Daimyo", Rarity.Classified, 47.00m),
+                new Skin("AWP | Exoskeleton", Rarity.Covert, 160.00m),
+                new Skin("M4A1-S | Hyper Beast", Rarity.Covert, 185.00m),
+                new Skin("★ Butterfly Knife | Fade", Rarity.RareSpecialItem, 450.00m),
             }),
         };
     }
