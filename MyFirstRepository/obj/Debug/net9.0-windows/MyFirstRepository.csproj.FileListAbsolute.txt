@@ -1,0 +1,15 @@
+C:\Users\s63014\Documents\Versie_beheer\MyFirstRepository\bin\Debug\net9.0-windows\MyFirstRepository.exe
+C:\Users\s63014\Documents\Versie_beheer\MyFirstRepository\bin\Debug\net9.0-windows\MyFirstRepository.deps.json
+C:\Users\s63014\Documents\Versie_beheer\MyFirstRepository\bin\Debug\net9.0-windows\MyFirstRepository.runtimeconfig.json
+C:\Users\s63014\Documents\Versie_beheer\MyFirstRepository\bin\Debug\net9.0-windows\MyFirstRepository.dll
+C:\Users\s63014\Documents\Versie_beheer\MyFirstRepository\bin\Debug\net9.0-windows\MyFirstRepository.pdb
+C:\Users\s63014\Documents\Versie_beheer\MyFirstRepository\obj\Debug\net9.0-windows\MyFirstRepository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s63014\Documents\Versie_beheer\MyFirstRepository\obj\Debug\net9.0-windows\MyFirstRepository.AssemblyInfoInputs.cache
+C:\Users\s63014\Documents\Versie_beheer\MyFirstRepository\obj\Debug\net9.0-windows\MyFirstRepository.AssemblyInfo.cs
+C:\Users\s63014\Documents\Versie_beheer\MyFirstRepository\obj\Debug\net9.0-windows\MyFirstRepository.csproj.CoreCompileInputs.cache
+C:\Users\s63014\Documents\Versie_beheer\MyFirstRepository\obj\Debug\net9.0-windows\MyFirstRepository.sourcelink.json
+C:\Users\s63014\Documents\Versie_beheer\MyFirstRepository\obj\Debug\net9.0-windows\MyFirstRepository.dll
+C:\Users\s63014\Documents\Versie_beheer\MyFirstRepository\obj\Debug\net9.0-windows\refint\MyFirstRepository.dll
+C:\Users\s63014\Documents\Versie_beheer\MyFirstRepository\obj\Debug\net9.0-windows\MyFirstRepository.pdb
+C:\Users\s63014\Documents\Versie_beheer\MyFirstRepository\obj\Debug\net9.0-windows\MyFirstRepository.genruntimeconfig.cache
+C:\Users\s63014\Documents\Versie_beheer\MyFirstRepository\obj\Debug\net9.0-windows\ref\MyFirstRepository.dll
