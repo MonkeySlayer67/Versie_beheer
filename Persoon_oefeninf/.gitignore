@@ -1,0 +1,87 @@
+# Build output
+bin/
+obj/
+
+# Release and debug directories
+[Rr]elease/
+[Dd]ebug/
+[TestRr]esult*/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+*.ide
+
+# Rider
+.idea/
+*.sln.iml
+*.DotSettings.user
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# MSBuild / .NET
+artifacts/
+publish/
+*.cache
+*.dbmdl
+*.generated.cs
+
+# Generated files
+Generated Files/
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.ipdb
+*.iobj
+*.tmp
+*.log
+*.vsix
+*.exp
+
+# Test output
+TestResults/
+*.trx
+
+# User-specific files
+*.local
+*.global
+*.vsconfig
+*.psess
+*.vsp
+*.vspx
+*.userprefs
+
+# Mono
+*.pidb
+*.svclog
+
+# OS generated files
+Thumbs.db
+desktop.ini
+.DS_Store
+ehthumbs.db
+Icon?
+
+# Optional
+*.bak
+*.swp
+~$*
