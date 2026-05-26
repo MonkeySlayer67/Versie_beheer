@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PersoonConcoleApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9e6f8ac89974353290521e21efb7f5f7d53bb55")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+50edd610992cb4570fab6181014c9fb5a13a6285")]
 [assembly: System.Reflection.AssemblyProductAttribute("PersoonConcoleApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PersoonConcoleApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
